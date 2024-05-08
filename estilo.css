@@ -1,0 +1,112 @@
+body {
+    
+    background: linear-gradient(to right, #00f349, #e01ce0);  
+}
+
+
+/* estilo para el contenedor del formulario*/
+
+#contenedor{
+    width: 450px;
+    height: 700px;
+    border: 2px solid black;
+    margin-left: 31%;
+    margin-top: 5%;
+    border-radius: 25px;
+    position: relative;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    
+    backdrop-filter: blur(20%);
+}
+
+
+
+
+/*----------------------------------------------*/
+
+.titulo{
+    font-size: 30px;
+}
+
+/* estilo para el div que contiene el titulo de Aceso*/
+#titulo_acceso{
+    margin-left: 41%;
+    margin-top: 50px;
+    position: absolute;
+}
+/*----------------------------------------------*/
+
+/* estilo para el contenedor del formulario con los input*/
+
+#formulario{
+    margin-top: 150px;
+    margin-left: 80px;
+    position: absolute;
+
+    /* este input solo afecta alos input*/
+    input{
+        display: block;
+        width: 280px;
+        height: 50px;
+        outline: none;
+        border: none;
+        font-size: 15px;
+        border-bottom: solid 2px;
+        background: transparent;
+    }
+    
+    /* este selector solo afecta a un iput con id de contraseña*/
+    #contraseña{
+        margin-top: 30px;
+    }
+    
+}
+
+
+/*estilo del div que contien los icono de los input*/
+.usuario{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+.contraseña{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 45px;
+}
+
+/*-------------------------------------------------------*/
+
+
+
+/*estilo del div que contien el boton*/
+#cont_boton{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 1px;
+}
+
+#cont_boton button{
+    width: 280px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+#pregunta_registro{
+    position: absolute;
+    margin-top: 93%;
+    margin-left: 15%;
+
+    p{
+        font-size: 20px;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+}

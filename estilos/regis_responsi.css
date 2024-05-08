@@ -1,0 +1,142 @@
+@media((min-width: 700px) and (max-width: 1520px)){
+    
+    .encabezado1{
+        margin-top: -90px;
+        margin-left: 30%;
+         p{
+             font-size: 20px;
+         }
+     }
+    
+    #cua_principal{
+        margin-top: 10%;
+        width: 380px;
+        height: 550px;
+    }
+
+    .cont_formu{
+        
+        margin-top: 180px;
+        margin-left: 50px;
+    }
+
+    .cont_formu input{
+        width: 260px;
+        height: 40px;
+    }
+
+    .encabezado p{
+        font-size: 25px;
+    }
+
+    .btn_crear{
+        
+        margin-top: -30px;
+    }
+
+    .boton{
+        background-color: aqua;
+        border-radius: 25px;
+        font-size: 15px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+}
+}
+
+
+
+
+@media ((min-width: 400px) and (max-width: 700px)){
+    .encabezado1{
+        margin-top: -140px;
+        margin-left: 18%;
+         p{
+             font-size: 18px;
+         }
+     }
+    
+    #cua_principal{
+        margin-top: 60%;
+        width: 280px;
+        height: 450px;
+    }
+
+    .cont_formu{
+        
+        margin-top: 110px;
+        margin-left: 50px;
+    }
+
+    .cont_formu input{
+        width: 150px;
+    }
+
+    .encabezado p{
+        font-size: 15px;
+    }
+
+    .btn_crear{
+        
+        margin-top: -30px;
+    }
+
+    .boton{
+        background-color: aqua;
+        border-radius: 25px;
+        font-size: 15px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+}
+
+}
+
+
+
+@media ((min-width: 300px) and (max-width: 390px)){
+    .encabezado1{
+        margin-top: -60px;
+        margin-left: 30%;
+         p{
+             font-size: 20px;
+         }
+     }
+    
+    #cua_principal{
+        margin-top: 40%;
+        width: 280px;
+        height: 450px;
+    }
+
+    .cont_formu{
+        
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+
+    .cont_formu input{
+        width: 150px;
+    }
+
+    .encabezado p{
+        font-size: 15px;
+    }
+
+    .btn_crear{
+        
+        margin-top: -30px;
+    }
+
+    .boton{
+        background-color: aqua;
+        border-radius: 25px;
+        font-size: 15px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+}
+}
